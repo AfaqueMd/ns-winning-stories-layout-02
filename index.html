@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winning with Newton School</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Inter, sans-serif;
+            color: #021233
+        }
+
+        #stories {
+            padding: 2rem 5rem;
+        }
+
+        #stories p,
+        h2 {
+            margin: 12px 10px;
+        }
+
+        #videos {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2.5rem 1rem;
+            position: relative;
+        }
+        
+        #videos div {
+            width: 22rem;
+            margin: 0 15px;
+        }
+
+        #videos div img {
+            width: 100%;
+            border-radius: 22px;
+        }
+
+        #videos div p {
+            width: 90%;
+            color: #5f697e;
+            padding: 1rem 2px;
+        }
+        #move-buttons{
+            position: absolute;
+            top: -30px;
+            right: -220px;
+        }
+        #move-buttons span{
+            margin: .4px;
+            padding: 0.3rem;
+            align-content: center;
+            border: 1px solid rgb(192, 191, 191);
+            border-radius: 50%;
+            font-size: 18px;
+            color: rgb(68, 68, 68);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="stories">
+        <h2>Winning with Newton School</h2>
+        <p>Watch what our learners have to say</p>
+        <section id="videos">
+            <div>
+                <img src="img1.PNG" alt="video-1">
+                <p>Prepare to be inspired as learners recount their journey to landing dream jobs ar Indigo, Powered by
+                    Newton School's innovative approach. Watch here!</p>
+            </div>
+            <div>
+                <img src="img2.PNG" alt="video-2">
+                <p>Aman was in for a surprise on his birthday. He landed his dream job on this special day, and his
+                    journey was nothing short of extraordinary. Watch here!</p>
+            </div>
+            <div>
+                <img src="img3.PNG" alt="video-3">
+                <p>Explore Nikhil Choudhary's leap from IIT Guwahati research to Data Science, driven by its market
+                    potential. Watch here!</p>
+            </div>
+            <div id="move-buttons">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios_new
+                    </span><span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
